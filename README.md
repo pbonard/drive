@@ -1,9 +1,4 @@
-실행방법
----
-[app.mikekim1032.shop/login](https://app.mikekim1032.shop/login)
-> 접속 후 플로우 댓글에 제공된 이메일 비밀번호로 로그인
 
-차단 정책 스키마
 ---
 ```sql
 CREATE TABLE blocked_extension (
@@ -63,7 +58,6 @@ flowchart TB
 ```
 #
 
-이외 member, team, metadata 스키마
 ---
 ```sql
 CREATE TABLE public.member (
